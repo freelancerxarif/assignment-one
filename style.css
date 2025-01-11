@@ -1,0 +1,60 @@
+*{
+   
+ padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", serif;
+}
+        /* Header section start here */
+header{
+    display: flex;
+    margin: 30px 130px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width:300px;
+}
+.logo h1{
+font-size: 25px;
+}
+
+nav ul{
+    text-decoration: none;
+    display: flex;
+    
+}
+
+nav ul li{
+    margin-left: 50px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+}
+
+nav ul li a:hover{
+    color: red;
+    transition: all 0.5s ease;
+}
+
+nav ul .signBtn{
+    border: 1.5px solid #006a50;
+    padding: 10px 20px;
+    color: #006a50;
+    border-radius: 6px;
+    font-weight: 500;
+}
+nav ul .signBtn:hover{
+    border: 1.5px solid #006a50;
+    color: #fff;
+    background-color: #006a50;
+    transition: all 0.5s ease;
+}
+
+
+
+
