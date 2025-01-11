@@ -409,3 +409,20 @@ main .bannerBd{
 .inputs input[type="email"]::placeholder{
     font-size: 16px;
 }
+
+
+/* footer start here */
+footer{
+    
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    margin-top: 30px;
+}
+.footers{
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    background-color: #000;
+    padding: 30px 0px;
+}
