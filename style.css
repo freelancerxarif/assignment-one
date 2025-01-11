@@ -55,6 +55,46 @@ nav ul .signBtn:hover{
     transition: all 0.5s ease;
 }
 
+     /* Banner section start here */
+
+main .bannerBd{
+    width: 1020px;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #c6e4d6;
+    margin: 0px 130px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.bannerBd .text span{
+    font-size: 18px;
+    opacity: 0.6;
+    
+}
+
+.bannerBd .text h3{
+    font-size: 45px;
+    margin: 20px 0px 40px 0px;
+}
+.bannerBd .text .expBtn{
+    text-decoration: none;
+    color: #fff;
+    background-color: #006a50;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+.bannerBd .image img{
+    width: 400px;
+}
+
+
+
+
 
 
 
