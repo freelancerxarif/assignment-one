@@ -7,11 +7,13 @@
 }
 body{
     background-color: #f5f5f5;
+    width: 1020px;
+    margin: 50px 130px;
 }
         /* Header section start here */
 header{
     display: flex;
-    margin: 30px 130px;
+    
     justify-content: space-between;
     align-items: center;
 }
@@ -61,15 +63,14 @@ nav ul .signBtn:hover{
      /* Banner section start here */
 
 main .bannerBd{
-    width: 1020px;
     height: 450px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #c6e4d6;
-    margin: 40px 130px;
     padding: 20px;
     border-radius: 20px;
+    margin: 40px 0px;
 }
 
 .bannerBd .text span{
@@ -97,10 +98,8 @@ main .bannerBd{
 
 
 /* Bangladesh 2.0 Pillars section start here */
-
 .pillars{
-    width: 1020px;
-    margin: 50px 130px;
+    margin: 40px 0px;
 }
 
 .pillars .text h3{
@@ -131,12 +130,71 @@ main .bannerBd{
 }
 .pillars .plBox .plCard p{
     font-size: 13px;
-    opacity: 0.5;
+    color: #000000a1;
     line-height: 18px;
 }
 
+   /* Vision Section start here */
 
+.vision .text h3{
+    font-size: 32px;
+    margin: 20px 0px;
+}
+.vision .text p{
+    font-size: 14px;
+    color: #000009a7;
+}
 
-
-
+.vision .card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0px;
+}
+.vision .card .visionCard{
+    width: 320px;
+    height: 250px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.vision .card .card1{
+    background-color: #d5e1f5;
+}
+.vision .card .card2{
+    background-color: #c6e4d6;
+}
+.vision .card .card3{
+    background-color: #f7ebcf;
+}
+.vision .card img{
+    width: 50px;
+}
+.vision .card .visionCard h4{
+    font-size: 16px;
+    margin: 10px 0px;
+}
+.vision .card p{
+    font-size: 13px;
+    color: #000000a1;
+    line-height: 18px;
+    margin: 10px 0px;
+    height: 70px;
+}
+.vision .card .visionCard a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: 450;
+}
+.vision .card .visionCard .learn1{
+    background-color:#5490f5 ;
+}
+.vision .card .visionCard .learn2{
+    background-color:#09a15c;
+}
+.vision .card .visionCard .learn3{
+    background-color:#ffc239 ;
+}
 
