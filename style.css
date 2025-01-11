@@ -281,3 +281,80 @@ main .bannerBd{
     background-color: #006a50;
     margin-top: 10px;
 }
+
+
+/* Donate section start here */
+
+.donate{
+    width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.donate .title12{
+    margin: 15px 0px;
+    text-align: center;
+}
+.donate .title12 h3{
+    font-size: 32px;
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.donate .title12 p{
+    font-size: 14px;
+    color:rgba(0, 0, 0, 0.626);
+    line-height: 18px;
+    margin: 20px 0px;
+}
+
+.donate .amount{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.donate .amount p{
+    font-size: 30px;
+    font-weight: 500;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.1);
+    padding: 35px 25px;
+    border: 1.5px solid rgba(0,0,0,0.1);
+    border-radius: 10px;
+    width: 190px;
+    text-align: center;
+}
+
+.donate .amount .bg{
+    background-color: #c6e4d6;
+}
+.input input[type="text"]{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    outline: none;
+    border: 1.5px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    
+    text-align: center;
+}
+
+.input input[type="text"]::placeholder{
+    font-size: 16px;
+}
+
+.input input[type="submit"]{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 13px 20px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: 450;
+    outline: none;
+    border: none;
+    background-color: #006a50;
+
+}
