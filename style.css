@@ -209,6 +209,7 @@ main .bannerBd{
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 15px;
     color: #000009a7;
+    margin: 20px 0px 60px 0px;
 }
 .quote .bg{
     background-image: url("assets/quote-bg.png");
@@ -227,4 +228,56 @@ main .bannerBd{
 }
 .quote span{
     font-size: 12px;
+}
+
+  /* Recent news section start here */
+
+  .title h3{
+    font-size: 32px;
+    margin: 15px 0px;
+  }
+.title p{
+    font-size: 14px;
+    color:rgba(0, 0, 0, 0.626);
+    line-height: 18px;
+    margin: 20px 0px;
+}
+.recentNews .blog{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 25px 0px;
+}
+.recentNews .blog .img img{
+    width: 320px;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+.recentNews .blog .text h4{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.recentNews .blog .text img{
+    width: 120px;
+    margin-bottom: 10px;
+}
+.recentNews .blog .text p{
+    font-size: 13px;
+    margin: 0px 0px 5px 0px;
+    line-height: 20px;
+    color: #000009a7;
+}
+.recentNews .blog .text a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 13px;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: 450;
+    background-color: #006a50;
+    margin-top: 10px;
 }
