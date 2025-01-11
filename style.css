@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: "Fira Sans", serif;
 }
+body{
+    background-color: #f5f5f5;
+}
         /* Header section start here */
 header{
     display: flex;
@@ -64,7 +67,7 @@ main .bannerBd{
     justify-content: space-around;
     align-items: center;
     background-color: #c6e4d6;
-    margin: 0px 130px;
+    margin: 40px 130px;
     padding: 20px;
     border-radius: 20px;
 }
@@ -92,6 +95,45 @@ main .bannerBd{
     width: 400px;
 }
 
+
+/* Bangladesh 2.0 Pillars section start here */
+
+.pillars{
+    width: 1020px;
+    margin: 50px 130px;
+}
+
+.pillars .text h3{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.pillars .plBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pillars .plBox .plCard{
+    width: 240px;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.1);
+    padding: 25px 20px;
+    border: 1.5px solid rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+.pillars .plBox .plCard img{
+    width: 50px;
+}
+.pillars .plBox .plCard h4{
+    font-size: 16px;
+    margin: 10px 0px;
+}
+.pillars .plBox .plCard p{
+    font-size: 13px;
+    opacity: 0.5;
+    line-height: 18px;
+}
 
 
 
